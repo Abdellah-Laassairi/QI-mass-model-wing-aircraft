@@ -1,2 +1,696 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<openturns-study version="102003" manager="XMLH5StorageManager"/>
+<openturns-study version="102003" manager="XMLH5StorageManager">
+  <object class="Point" id="14" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/14</string>
+  </object>
+  <object class="MatrixImplementation" id="15" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/15</string>
+  </object>
+  <object class="Point" id="16" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="17" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="19" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/19</string>
+  </object>
+  <object class="Point" id="20" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/20</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="21" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/21</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="22" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/22</string>
+  </object>
+  <object class="Interval" id="18" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="19"/>
+    <object member="upperBound_" id="20"/>
+    <object member="finiteLowerBound_" id="21"/>
+    <object member="finiteUpperBound_" id="22"/>
+  </object>
+  <object class="Description" id="23" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">A</string>
+  </object>
+  <object class="Uniform" id="3" name="A" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="6" b_="10" StudyVisible="true" StudyLabel="A">
+    <object member="mean_" id="14"/>
+    <object member="covariance_" id="15"/>
+    <object member="gaussNodes_" id="16"/>
+    <object member="gaussWeights_" id="17"/>
+    <object member="range_" id="18"/>
+    <object member="description_" id="23"/>
+  </object>
+  <object class="Point" id="24" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/24</string>
+  </object>
+  <object class="MatrixImplementation" id="25" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/25</string>
+  </object>
+  <object class="Point" id="26" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="27" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="29" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/29</string>
+  </object>
+  <object class="Point" id="30" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/30</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="31" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/31</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="32" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/32</string>
+  </object>
+  <object class="Interval" id="28" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="29"/>
+    <object member="upperBound_" id="30"/>
+    <object member="finiteLowerBound_" id="31"/>
+    <object member="finiteUpperBound_" id="32"/>
+  </object>
+  <object class="Description" id="33" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">Lambda</string>
+  </object>
+  <object class="Uniform" id="4" name="Lambda" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="-10" b_="10" StudyVisible="true" StudyLabel="Lambda">
+    <object member="mean_" id="24"/>
+    <object member="covariance_" id="25"/>
+    <object member="gaussNodes_" id="26"/>
+    <object member="gaussWeights_" id="27"/>
+    <object member="range_" id="28"/>
+    <object member="description_" id="33"/>
+  </object>
+  <object class="Point" id="34" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/34</string>
+  </object>
+  <object class="MatrixImplementation" id="35" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/35</string>
+  </object>
+  <object class="Point" id="36" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="37" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="39" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/39</string>
+  </object>
+  <object class="Point" id="40" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/40</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="41" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/41</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="42" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/42</string>
+  </object>
+  <object class="Interval" id="38" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="39"/>
+    <object member="upperBound_" id="40"/>
+    <object member="finiteLowerBound_" id="41"/>
+    <object member="finiteUpperBound_" id="42"/>
+  </object>
+  <object class="Description" id="43" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">X0</string>
+  </object>
+  <object class="Point" id="45" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/45</string>
+  </object>
+  <object class="MatrixImplementation" id="46" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/46</string>
+  </object>
+  <object class="Point" id="47" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="48" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="50" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/50</string>
+  </object>
+  <object class="Point" id="51" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/51</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="52" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/52</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="53" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/53</string>
+  </object>
+  <object class="Interval" id="49" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="50"/>
+    <object member="upperBound_" id="51"/>
+    <object member="finiteLowerBound_" id="52"/>
+    <object member="finiteUpperBound_" id="53"/>
+  </object>
+  <object class="Description" id="54" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">Wp</string>
+  </object>
+  <object class="Uniform" id="44" name="Wp" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="0.025000000000000001" b_="0.080000000000000002" StudyVisible="false" StudyLabel="">
+    <object member="mean_" id="45"/>
+    <object member="covariance_" id="46"/>
+    <object member="gaussNodes_" id="47"/>
+    <object member="gaussWeights_" id="48"/>
+    <object member="range_" id="49"/>
+    <object member="description_" id="54"/>
+  </object>
+  <object class="Point" id="56" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/56</string>
+  </object>
+  <object class="MatrixImplementation" id="57" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/57</string>
+  </object>
+  <object class="Point" id="58" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="59" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="61" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/61</string>
+  </object>
+  <object class="Point" id="62" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/62</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="63" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/63</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="64" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/64</string>
+  </object>
+  <object class="Interval" id="60" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="61"/>
+    <object member="upperBound_" id="62"/>
+    <object member="finiteLowerBound_" id="63"/>
+    <object member="finiteUpperBound_" id="64"/>
+  </object>
+  <object class="Description" id="65" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">Sw</string>
+  </object>
+  <object class="Uniform" id="55" name="Sw" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="150" b_="200" StudyVisible="false" StudyLabel="">
+    <object member="mean_" id="56"/>
+    <object member="covariance_" id="57"/>
+    <object member="gaussNodes_" id="58"/>
+    <object member="gaussWeights_" id="59"/>
+    <object member="range_" id="60"/>
+    <object member="description_" id="65"/>
+  </object>
+  <object class="ProductDistribution" id="13" name="ProductDistribution" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" StudyVisible="true" StudyLabel="Mp">
+    <object member="mean_" id="34"/>
+    <object member="covariance_" id="35"/>
+    <object member="gaussNodes_" id="36"/>
+    <object member="gaussWeights_" id="37"/>
+    <object member="range_" id="38"/>
+    <object member="description_" id="43"/>
+    <object member="left_" id="44"/>
+    <object member="right_" id="55"/>
+  </object>
+  <object class="Point" id="66" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/66</string>
+  </object>
+  <object class="MatrixImplementation" id="67" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/67</string>
+  </object>
+  <object class="Point" id="68" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="69" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="71" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/71</string>
+  </object>
+  <object class="Point" id="72" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/72</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="73" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/73</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="74" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/74</string>
+  </object>
+  <object class="Interval" id="70" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="71"/>
+    <object member="upperBound_" id="72"/>
+    <object member="finiteLowerBound_" id="73"/>
+    <object member="finiteUpperBound_" id="74"/>
+  </object>
+  <object class="Description" id="75" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">Nz</string>
+  </object>
+  <object class="Uniform" id="8" name="Nz" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="2.5" b_="6" StudyVisible="true" StudyLabel="Nz">
+    <object member="mean_" id="66"/>
+    <object member="covariance_" id="67"/>
+    <object member="gaussNodes_" id="68"/>
+    <object member="gaussWeights_" id="69"/>
+    <object member="range_" id="70"/>
+    <object member="description_" id="75"/>
+  </object>
+  <object class="Point" id="76" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/76</string>
+  </object>
+  <object class="Point" id="77" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="78" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="80" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/80</string>
+  </object>
+  <object class="Point" id="81" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/81</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="82" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/82</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="83" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/83</string>
+  </object>
+  <object class="Interval" id="79" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="80"/>
+    <object member="upperBound_" id="81"/>
+    <object member="finiteLowerBound_" id="82"/>
+    <object member="finiteUpperBound_" id="83"/>
+  </object>
+  <object class="Description" id="84" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">Sw</string>
+  </object>
+  <object class="Uniform" id="1" name="Sw" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="150" b_="200" StudyVisible="true" StudyLabel="Sw">
+    <object member="mean_" id="76"/>
+    <object member="covariance_" id="57"/>
+    <object member="gaussNodes_" id="77"/>
+    <object member="gaussWeights_" id="78"/>
+    <object member="range_" id="79"/>
+    <object member="description_" id="84"/>
+  </object>
+  <object class="Point" id="85" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/85</string>
+  </object>
+  <object class="Point" id="86" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="87" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="89" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/89</string>
+  </object>
+  <object class="Point" id="90" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/90</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="91" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/91</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="92" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/92</string>
+  </object>
+  <object class="Interval" id="88" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="89"/>
+    <object member="upperBound_" id="90"/>
+    <object member="finiteLowerBound_" id="91"/>
+    <object member="finiteUpperBound_" id="92"/>
+  </object>
+  <object class="Description" id="93" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">Wp</string>
+  </object>
+  <object class="Uniform" id="9" name="Wp" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="0.025000000000000001" b_="0.080000000000000002" StudyVisible="true" StudyLabel="Wdg">
+    <object member="mean_" id="85"/>
+    <object member="covariance_" id="46"/>
+    <object member="gaussNodes_" id="86"/>
+    <object member="gaussWeights_" id="87"/>
+    <object member="range_" id="88"/>
+    <object member="description_" id="93"/>
+  </object>
+  <object class="Point" id="94" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/94</string>
+  </object>
+  <object class="MatrixImplementation" id="95" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/95</string>
+  </object>
+  <object class="Point" id="96" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="97" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="99" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/99</string>
+  </object>
+  <object class="Point" id="100" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/100</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="101" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/101</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="102" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/102</string>
+  </object>
+  <object class="Interval" id="98" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="99"/>
+    <object member="upperBound_" id="100"/>
+    <object member="finiteLowerBound_" id="101"/>
+    <object member="finiteUpperBound_" id="102"/>
+  </object>
+  <object class="Description" id="103" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">Wfw</string>
+  </object>
+  <object class="Uniform" id="2" name="Wfw" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="220" b_="300" StudyVisible="true" StudyLabel="Wfw">
+    <object member="mean_" id="94"/>
+    <object member="covariance_" id="95"/>
+    <object member="gaussNodes_" id="96"/>
+    <object member="gaussWeights_" id="97"/>
+    <object member="range_" id="98"/>
+    <object member="description_" id="103"/>
+  </object>
+  <object class="Point" id="104" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/104</string>
+  </object>
+  <object class="MatrixImplementation" id="105" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/105</string>
+  </object>
+  <object class="Point" id="106" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="107" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="109" size="10" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/109</string>
+  </object>
+  <object class="Point" id="110" size="10" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/110</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="111" size="10" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/111</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="112" size="10" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/112</string>
+  </object>
+  <object class="Interval" id="108" dimension_="10" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="109"/>
+    <object member="upperBound_" id="110"/>
+    <object member="finiteLowerBound_" id="111"/>
+    <object member="finiteUpperBound_" id="112"/>
+  </object>
+  <object class="Description" id="113" size="10" StudyVisible="false" StudyLabel="">
+    <string index="0">X0</string>
+    <string index="1">X1</string>
+    <string index="2">X2</string>
+    <string index="3">X3</string>
+    <string index="4">X4</string>
+    <string index="5">X5</string>
+    <string index="6">X6</string>
+    <string index="7">X7</string>
+    <string index="8">X8</string>
+    <string index="9">X9</string>
+  </object>
+  <object class="IndependentCopula" id="10" name="IndependentCopula" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="10" weight_="1" isCopula_="true" isParallel_="true" StudyVisible="true" StudyLabel="copule">
+    <object member="mean_" id="104"/>
+    <object member="covariance_" id="105"/>
+    <object member="gaussNodes_" id="106"/>
+    <object member="gaussWeights_" id="107"/>
+    <object member="range_" id="108"/>
+    <object member="description_" id="113"/>
+  </object>
+  <object class="Point" id="114" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/114</string>
+  </object>
+  <object class="MatrixImplementation" id="115" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/115</string>
+  </object>
+  <object class="Point" id="116" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="117" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="119" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/119</string>
+  </object>
+  <object class="Point" id="120" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/120</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="121" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/121</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="122" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/122</string>
+  </object>
+  <object class="Interval" id="118" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="119"/>
+    <object member="upperBound_" id="120"/>
+    <object member="finiteLowerBound_" id="121"/>
+    <object member="finiteUpperBound_" id="122"/>
+  </object>
+  <object class="Description" id="123" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">l</string>
+  </object>
+  <object class="Uniform" id="6" name="l" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="0.5" b_="1" StudyVisible="true" StudyLabel="l">
+    <object member="mean_" id="114"/>
+    <object member="covariance_" id="115"/>
+    <object member="gaussNodes_" id="116"/>
+    <object member="gaussWeights_" id="117"/>
+    <object member="range_" id="118"/>
+    <object member="description_" id="123"/>
+  </object>
+  <object class="Description" id="125" size="10" StudyVisible="false" StudyLabel="">
+    <string index="0">x0</string>
+    <string index="1">x1</string>
+    <string index="2">x2</string>
+    <string index="3">x3</string>
+    <string index="4">x4</string>
+    <string index="5">x5</string>
+    <string index="6">x6</string>
+    <string index="7">x7</string>
+    <string index="8">x8</string>
+    <string index="9">x9</string>
+  </object>
+  <object class="Description" id="126" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">y0</string>
+  </object>
+  <object class="Point" id="127" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Description" id="128" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Indices" id="129" size="464" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/129</string>
+  </object>
+  <object class="Indices" id="130" size="64" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/130</string>
+  </object>
+  <object class="PythonEvaluation" id="124" name="OpenTURNSPythonFunction" callsNumber_="31111984" checkOutput_="true" pyObj_has_exec_="true" pyObj_has_exec_sample_="false" pyObj_discard_openturns_memoryview_="false" StudyVisible="false" StudyLabel="">
+    <object member="inputDescription_" id="125"/>
+    <object member="outputDescription_" id="126"/>
+    <object member="parameter_" id="127"/>
+    <object member="parameterDescription_" id="128"/>
+    <object member="pyInstance_" id="129"/>
+    <object member="pyBufferClass_" id="130"/>
+  </object>
+  <object class="Point" id="132" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="134" size="10" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/134</string>
+  </object>
+  <object class="ConstantStep" id="133" StudyVisible="false" StudyLabel="">
+    <object member="epsilon_" id="134"/>
+  </object>
+  <object class="CenteredFiniteDifferenceGradient" id="131" callsNumber_="0" StudyVisible="false" StudyLabel="">
+    <object member="parameter_" id="132"/>
+    <object member="evaluation_" id="124"/>
+    <object member="finiteDifferenceStep_" id="133"/>
+  </object>
+  <object class="Point" id="136" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="138" size="10" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/138</string>
+  </object>
+  <object class="ConstantStep" id="137" StudyVisible="false" StudyLabel="">
+    <object member="epsilon_" id="138"/>
+  </object>
+  <object class="CenteredFiniteDifferenceHessian" id="135" callsNumber_="0" StudyVisible="false" StudyLabel="">
+    <object member="parameter_" id="136"/>
+    <object member="evaluation_" id="124"/>
+    <object member="finiteDifferenceStep_" id="137"/>
+  </object>
+  <object class="FunctionImplementation" id="11" useDefaultGradientImplementation_="true" useDefaultHessianImplementation_="true" StudyVisible="true" StudyLabel="model_masse">
+    <object member="evaluation_" id="124"/>
+    <object member="gradient_" id="131"/>
+    <object member="hessian_" id="135"/>
+  </object>
+  <object class="Point" id="139" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/139</string>
+  </object>
+  <object class="MatrixImplementation" id="140" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/140</string>
+  </object>
+  <object class="Point" id="141" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="142" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="144" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/144</string>
+  </object>
+  <object class="Point" id="145" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/145</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="146" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/146</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="147" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/147</string>
+  </object>
+  <object class="Interval" id="143" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="144"/>
+    <object member="upperBound_" id="145"/>
+    <object member="finiteLowerBound_" id="146"/>
+    <object member="finiteUpperBound_" id="147"/>
+  </object>
+  <object class="Description" id="148" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">q</string>
+  </object>
+  <object class="Uniform" id="5" name="q" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="16" b_="45" StudyVisible="true" StudyLabel="q">
+    <object member="mean_" id="139"/>
+    <object member="covariance_" id="140"/>
+    <object member="gaussNodes_" id="141"/>
+    <object member="gaussWeights_" id="142"/>
+    <object member="range_" id="143"/>
+    <object member="description_" id="148"/>
+  </object>
+  <object class="Description" id="150" size="10" StudyVisible="false" StudyLabel="">
+    <string index="0">Sw</string>
+    <string index="1">Wfw</string>
+    <string index="2">A</string>
+    <string index="3">Lambda</string>
+    <string index="4">q</string>
+    <string index="5">l</string>
+    <string index="6">tc</string>
+    <string index="7">Nz</string>
+    <string index="8">Wdg</string>
+    <string index="9">Wp</string>
+  </object>
+  <object class="Description" id="151" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">y0</string>
+  </object>
+  <object class="Point" id="152" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Description" id="153" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Description" id="154" size="10" StudyVisible="false" StudyLabel="">
+    <string index="0">Sw</string>
+    <string index="1">Wfw</string>
+    <string index="2">A</string>
+    <string index="3">Lambda</string>
+    <string index="4">q</string>
+    <string index="5">l</string>
+    <string index="6">tc</string>
+    <string index="7">Nz</string>
+    <string index="8">Wdg</string>
+    <string index="9">Wp</string>
+  </object>
+  <object class="Description" id="155" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">y0</string>
+  </object>
+  <object class="Description" id="156" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">0.036*(Sw^0.758)*(Wfw^0.0035)*((A/(cos(Lambda*pi_/180)^2))^0.6)*(q^0.006)*(l^0.04)*(100*tc/(cos(Lambda*pi_/180)))^(-0.3)*((Nz*Wdg)^0.49)+Sw*Wp</string>
+  </object>
+  <object class="SymbolicEvaluation" id="149" callsNumber_="225611100" checkOutput_="true" StudyVisible="false" StudyLabel="">
+    <object member="inputDescription_" id="150"/>
+    <object member="outputDescription_" id="151"/>
+    <object member="parameter_" id="152"/>
+    <object member="parameterDescription_" id="153"/>
+    <object member="inputVariablesNames_" id="154"/>
+    <object member="outputVariablesNames_" id="155"/>
+    <object member="formulas_" id="156"/>
+  </object>
+  <object class="Point" id="158" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Description" id="160" size="10" StudyVisible="false" StudyLabel="">
+    <string index="0">Sw</string>
+    <string index="1">Wfw</string>
+    <string index="2">A</string>
+    <string index="3">Lambda</string>
+    <string index="4">q</string>
+    <string index="5">l</string>
+    <string index="6">tc</string>
+    <string index="7">Nz</string>
+    <string index="8">Wdg</string>
+    <string index="9">Wp</string>
+  </object>
+  <object class="Description" id="161" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">y0</string>
+  </object>
+  <object class="Point" id="162" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Description" id="163" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Description" id="164" size="10" StudyVisible="false" StudyLabel="">
+    <string index="0">Sw</string>
+    <string index="1">Wfw</string>
+    <string index="2">A</string>
+    <string index="3">Lambda</string>
+    <string index="4">q</string>
+    <string index="5">l</string>
+    <string index="6">tc</string>
+    <string index="7">Nz</string>
+    <string index="8">Wdg</string>
+    <string index="9">Wp</string>
+  </object>
+  <object class="Description" id="165" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">y0</string>
+  </object>
+  <object class="Description" id="166" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">0.036*(Sw^0.758)*(Wfw^0.0035)*((A/(cos(Lambda*pi_/180)^2))^0.6)*(q^0.006)*(l^0.04)*(100*tc/(cos(Lambda*pi_/180)))^(-0.3)*((Nz*Wdg)^0.49)+Sw*Wp</string>
+  </object>
+  <object class="SymbolicEvaluation" id="159" callsNumber_="0" checkOutput_="true" StudyVisible="false" StudyLabel="">
+    <object member="inputDescription_" id="160"/>
+    <object member="outputDescription_" id="161"/>
+    <object member="parameter_" id="162"/>
+    <object member="parameterDescription_" id="163"/>
+    <object member="inputVariablesNames_" id="164"/>
+    <object member="outputVariablesNames_" id="165"/>
+    <object member="formulas_" id="166"/>
+  </object>
+  <object class="SymbolicGradient" id="157" callsNumber_="4" StudyVisible="false" StudyLabel="">
+    <object member="parameter_" id="158"/>
+    <object member="evaluation_" id="159"/>
+  </object>
+  <object class="Point" id="168" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Description" id="170" size="10" StudyVisible="false" StudyLabel="">
+    <string index="0">Sw</string>
+    <string index="1">Wfw</string>
+    <string index="2">A</string>
+    <string index="3">Lambda</string>
+    <string index="4">q</string>
+    <string index="5">l</string>
+    <string index="6">tc</string>
+    <string index="7">Nz</string>
+    <string index="8">Wdg</string>
+    <string index="9">Wp</string>
+  </object>
+  <object class="Description" id="171" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">y0</string>
+  </object>
+  <object class="Point" id="172" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Description" id="173" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Description" id="174" size="10" StudyVisible="false" StudyLabel="">
+    <string index="0">Sw</string>
+    <string index="1">Wfw</string>
+    <string index="2">A</string>
+    <string index="3">Lambda</string>
+    <string index="4">q</string>
+    <string index="5">l</string>
+    <string index="6">tc</string>
+    <string index="7">Nz</string>
+    <string index="8">Wdg</string>
+    <string index="9">Wp</string>
+  </object>
+  <object class="Description" id="175" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">y0</string>
+  </object>
+  <object class="Description" id="176" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">0.036*(Sw^0.758)*(Wfw^0.0035)*((A/(cos(Lambda*pi_/180)^2))^0.6)*(q^0.006)*(l^0.04)*(100*tc/(cos(Lambda*pi_/180)))^(-0.3)*((Nz*Wdg)^0.49)+Sw*Wp</string>
+  </object>
+  <object class="SymbolicEvaluation" id="169" callsNumber_="0" checkOutput_="true" StudyVisible="false" StudyLabel="">
+    <object member="inputDescription_" id="170"/>
+    <object member="outputDescription_" id="171"/>
+    <object member="parameter_" id="172"/>
+    <object member="parameterDescription_" id="173"/>
+    <object member="inputVariablesNames_" id="174"/>
+    <object member="outputVariablesNames_" id="175"/>
+    <object member="formulas_" id="176"/>
+  </object>
+  <object class="SymbolicHessian" id="167" callsNumber_="4" StudyVisible="false" StudyLabel="">
+    <object member="parameter_" id="168"/>
+    <object member="evaluation_" id="169"/>
+  </object>
+  <object class="FunctionImplementation" id="12" useDefaultGradientImplementation_="false" useDefaultHessianImplementation_="false" StudyVisible="true" StudyLabel="symbolic_function">
+    <object member="evaluation_" id="149"/>
+    <object member="gradient_" id="157"/>
+    <object member="hessian_" id="167"/>
+  </object>
+  <object class="Point" id="177" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/177</string>
+  </object>
+  <object class="MatrixImplementation" id="178" size="1" nbRows_="1" nbColumns_="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/178</string>
+  </object>
+  <object class="Point" id="179" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="180" size="0" StudyVisible="false" StudyLabel=""/>
+  <object class="Point" id="182" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/182</string>
+  </object>
+  <object class="Point" id="183" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/183</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="184" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/184</string>
+  </object>
+  <object class="PersistentCollection&lt;UnsignedInteger&gt;" id="185" size="1" StudyVisible="false" StudyLabel="">
+    <string>Project_QI.h5:/185</string>
+  </object>
+  <object class="Interval" id="181" dimension_="1" StudyVisible="false" StudyLabel="">
+    <object member="lowerBound_" id="182"/>
+    <object member="upperBound_" id="183"/>
+    <object member="finiteLowerBound_" id="184"/>
+    <object member="finiteUpperBound_" id="185"/>
+  </object>
+  <object class="Description" id="186" size="1" StudyVisible="false" StudyLabel="">
+    <string index="0">tc</string>
+  </object>
+  <object class="Uniform" id="7" name="tc" integrationNodesNumber_="255" isAlreadyComputedMean_="false" isAlreadyComputedCovariance_="false" isAlreadyComputedGaussNodesAndWeights_="false" dimension_="1" weight_="1" isCopula_="false" isParallel_="true" a_="0.080000000000000002" b_="0.17999999999999999" StudyVisible="true" StudyLabel="tc">
+    <object member="mean_" id="177"/>
+    <object member="covariance_" id="178"/>
+    <object member="gaussNodes_" id="179"/>
+    <object member="gaussWeights_" id="180"/>
+    <object member="range_" id="181"/>
+    <object member="description_" id="186"/>
+  </object>
+</openturns-study>
